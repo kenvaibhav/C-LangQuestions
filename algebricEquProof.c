@@ -11,9 +11,11 @@ void main(){
     //find right hand side
     int rhs = a*a + 2*a*b + b*b;
     //check
-    if(lhs == rhs){
-        printf("Yes, the equation is correct for %d,%d",a,b);
-    }else{
-        printf("No the equation is not correct for %d,%d",a,b);
-    }
+    // if(lhs == rhs){
+    //     printf("Yes, the equation is correct for %d,%d",a,b);
+    // }else{
+    //     printf("No the equation is not correct for %d,%d",a,b);
+    // }
+    (lhs == rhs)? printf("Yes, the equation is correct for %d,%d",a,b) :
+    printf("No the equation is not correct for %d,%d",a,b);
 }
